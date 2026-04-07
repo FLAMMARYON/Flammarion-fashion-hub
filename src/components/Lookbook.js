@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Section = styled.section`
   padding: 120px 0;
@@ -178,22 +178,6 @@ const LookNumber = styled.span`
   line-height: 1;
   display: block;
   margin-bottom: 10px;
-`;
-
-const LookTitle = styled.h3`
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-bottom: 8px;
-`;
-
-const LookDescription = styled.p`
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.7rem;
-  font-weight: 300;
-  letter-spacing: 1px;
-  opacity: 0.8;
 `;
 
 const looks = [
