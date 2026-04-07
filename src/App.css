@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background: #FFFDF4;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+:root {
+  --maroon: #800020;
+  --maroon-dark: #5c0017;
+  --milk: #FFFDF4;
+  --milk-dark: #F5F0EB;
+  --gold: #D4AF37;
+  --gold-light: #E8C547;
+  --text-dark: #1a1a1a;
+  --text-light: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--maroon);
+  color: var(--milk);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--milk-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--maroon);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--maroon-dark);
+}
